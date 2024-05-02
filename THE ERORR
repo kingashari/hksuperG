@@ -33,3 +33,16 @@ Traceback (most recent call last):
     digit = [int(d) for d in kombinasi]
              ^^^^^^
 ValueError: invalid literal for int() with base 10: 'A'
+
+4
+HASIL KOMBINASI:
+6AS9KOP5KEP8EKO
+7AS0KOP8KEP5EKO
+Traceback (most recent call last):
+  File "d:\hksuperG-1.0.py", line 74, in <module>
+    digit_angka = [int(kombinasi[i:i+1]) for i in range(0, len(kombinasi), 2)]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\hksuperG-1.0.py", line 74, in <listcomp>
+    digit_angka = [int(kombinasi[i:i+1]) for i in range(0, len(kombinasi), 2)]
+                   ^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'S'
