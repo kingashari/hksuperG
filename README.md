@@ -1,5 +1,6 @@
 # hksuperG-1.0
 errors and bugs still exist
+
 make me a program in Python, this program is used to search for a number randomly, the numbers will come out according to the rules that I made.\
 Each digit number has its own name, for example the number 1234
 1 THOUSAND is US
