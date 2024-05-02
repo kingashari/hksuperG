@@ -1,0 +1,35 @@
+1
+C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/python.exe d:/hksuperG-1.0.py
+Traceback (most recent call last):
+  File "d:\hksuperG-1.0.py", line 60, in <module>
+    hasil_kombinasi = generate_kombinasi()
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "d:\hksuperG-1.0.py", line 37, in generate_kombinasi
+    for nama_digit, batas_atas, batas_bawah in zip(nama_digit.values(), batas_atas.values(), batas_bawah.values()):
+                                                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'nama_digit' where it is not associated with a value
+
+2
+C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/python.exe d:/hksuperG-1.0.py
+Traceback (most recent call last):
+  File "d:\hksuperG-1.0.py", line 60, in <module>
+    hasil_kombinasi = generate_kombinasi()
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "d:\hksuperG-1.0.py", line 37, in generate_kombinasi
+    for nama_digit, batas_atas, batas_bawah in zip(nama_digit_global.values(), batas_atas.values(), batas_bawah.values()):
+                                                                               ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'batas_atas' where it is not associated with a value
+
+3
+C:/Users/LENOVO/AppData/Local/Programs/Python/Python311/python.exe d:/hksuperG-1.0.py
+HASIL KOMBINASI:
+8AS0KOP7KEP9EKO
+5AS7KOP6KEP8EKO
+Traceback (most recent call last):
+  File "d:\hksuperG-1.0.py", line 74, in <module>
+    digit = [int(d) for d in kombinasi]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\hksuperG-1.0.py", line 74, in <listcomp>
+    digit = [int(d) for d in kombinasi]
+             ^^^^^^
+ValueError: invalid literal for int() with base 10: 'A'
