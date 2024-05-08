@@ -14,7 +14,6 @@ beta
 
 1.3 (coming soon)
 
-It can be used, but the betting mode is not available and there are still many shortcomings
 
 # screenshot
 ![Cuplikan layar 2024-05-08 170354](https://github.com/kingashari/hksuperG/assets/144193006/75cefade-aa2e-4d2c-8007-5b85e5ae416f)
@@ -28,6 +27,6 @@ bet mode not available
 
 totally not available
 
-If it's not available yet, it means it's still in development mode
+It can be used, but the betting mode is not available and there are still many shortcomings
 
 
