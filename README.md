@@ -12,7 +12,9 @@ beta
 
 1.2 (succes version)
 
-1.3 (coming soon)
+1.3 done fix bug death number
+
+1.4 coming soon feature adding bet for 4d 3d 2d
 
 
 # screenshot
