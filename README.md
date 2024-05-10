@@ -3,9 +3,8 @@
 This is a number generator to randomize numbers according to our preferences, these numbers can be used for anything, and the most common way to play lottery in Indonesia is called "TOGEL". please be patient, this is still in development mode and there are still many shortcomings, here I am assisted by available AI such as ChatGpt or Gemini from Google. If you want to help me, you can contact me on my Instagram or Facebook profile, thank you.
 
 # coming soon
-
-
 coming in website to universal useing
+
 1.4 coming soon feature adding bet for 4d 3d 2d
 
 
