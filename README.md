@@ -26,4 +26,6 @@ It can be used, but the betting mode is not available and there are still many s
 
 The web version will come, maybe it won't be long in 2-3 weeks, this will probably use the first version, maybe use WAP mode because here we are looking for easy access. I will add some important features first before rolling out the web version. version 1.9? version 2.0 or 2.1? Don't know.
 
+THE LATEST UPDATE TO THE WEB VERSION IS BEING DEVELOPED!!
+
 
