@@ -22,4 +22,8 @@ totally not available
 
 It can be used, but the betting mode is not available and there are still many shortcomings
 
+#web version ?
+
+The web version will come, maybe it won't be long in 2-3 weeks, this will probably use the first version, maybe use WAP mode because here we are looking for easy access.
+
 
