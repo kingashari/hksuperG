@@ -5,7 +5,7 @@ This is a number generator to randomize numbers according to our preferences, th
 # coming soon
 coming in website to universal useing
 
-1.5 coming soon feature adding bet for 4d 3d 2d
+1.6 coming soon feature adding totally bet
 
 
 # build
@@ -13,14 +13,16 @@ Visual Studio Code
 
 v1.89 april 2024
 
+Python version
+
+Python 3.11.9
+
 # maintenace
 If it's not available yet, it means it's still in development mode
 
-bet mode not available
+bet mode available NOW
 
 totally not available
-
-It can be used, but the betting mode is not available and there are still many shortcomings
 
 # web version ?
 
