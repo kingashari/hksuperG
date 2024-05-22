@@ -5,7 +5,8 @@ This is a number generator to randomize numbers according to our preferences, th
 # coming soon
 coming in website to universal useing
 
-1.6 coming soon feature adding totally bet
+1.6 there are changes
+1.7 coming soon feature adding totally bet
 
 
 # build
