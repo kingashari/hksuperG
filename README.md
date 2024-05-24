@@ -9,6 +9,7 @@ about updates can be seen at releases
 coming in website to universal useing
 
 1.6 there are changes
+
 1.8 coming soon feature adding totally bet
 
 
@@ -28,6 +29,8 @@ bet mode available NOW
 
 totally not available
 
+dead number data is now available automatically in update 1.7
+
 # web version ?
 
 The web version will come, maybe it won't be long in 2-3 weeks, this will probably use the first version, maybe use WAP mode because here we are looking for easy access. I will add some important features first before rolling out the web version. version 1.9? version 2.0 or 2.1? Don't know.
@@ -37,4 +40,8 @@ THE LATEST UPDATE TO THE WEB VERSION IS BEING DEVELOPED!!
 # NOTE!!
 
 In the version 1.6 update, we decided to remove a feature that I found to be unnecessary. After careful consideration and thorough research, I have decided to eliminate the dead number feature. This will be replaced with a feature that allows users to eliminate numbers that have already been drawn or that they believe will not be drawn.
+
+If the dead number has an error or can't be run, you can replace it in the Python script, look for the code 
+'url = 'xxxxxxxxxxxxxxx'
+and contact me, I'll give you a small update
 
