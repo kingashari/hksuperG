@@ -2,11 +2,13 @@
 
 The developed code serves as a tool for generating random number combinations with specific constraints, commonly used in betting games or lotteries. This code allows users to input the number of combinations they want to generate, the bet values for four-digit (4D), three-digit (3D), and two-digit (2D) combinations, as well as a list of four-digit combinations that should be excluded from the results. The code comprises several key components, including the initialization of global variables for digit names and number limits, the `generate_kombinasi` function to generate valid random number combinations, and the `main` function to handle user input and display the results. During the process, the code ensures that the generated number combinations do not include any of the forbidden combinations and constructs the result strings in the desired format for use in betting games or simulations. Consequently, this code not only assists in generating random number combinations but also provides additional control to avoid specific numbers, making it a flexible and useful tool in the context of number-based betting.
 
+# update version
+about updates can be seen at releases
+
 # coming soon
 coming in website to universal useing
 
 1.6 there are changes
-1.7 add dead number from website in ever market wla 110
 1.8 coming soon feature adding totally bet
 
 
