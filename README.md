@@ -6,7 +6,7 @@ The developed code serves as a tool for generating random number combinations wi
 coming in website to universal useing
 
 1.6 there are changes
-1.7 coming soon feature adding totally bet
+1.8 coming soon feature adding totally bet
 
 
 # build
@@ -34,5 +34,4 @@ THE LATEST UPDATE TO THE WEB VERSION IS BEING DEVELOPED!!
 # NOTE!!
 
 In the version 1.6 update, we decided to remove a feature that I found to be unnecessary. After careful consideration and thorough research, I have decided to eliminate the dead number feature. This will be replaced with a feature that allows users to eliminate numbers that have already been drawn or that they believe will not be drawn.
-
 
