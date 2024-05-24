@@ -41,7 +41,7 @@ THE LATEST UPDATE TO THE WEB VERSION IS BEING DEVELOPED!!
 
 In the version 1.6 update, we decided to remove a feature that I found to be unnecessary. After careful consideration and thorough research, I have decided to eliminate the dead number feature. This will be replaced with a feature that allows users to eliminate numbers that have already been drawn or that they believe will not be drawn.
 
-If the dead number has an error or can't be run, you can replace it in the Python script, look for the code 
+in 1.7 if the dead number has an error or can't be run, you can replace it in the Python script, look for the code 
 'url = 'xxxxxxxxxxxxxxx'
 and contact me, I'll give you a small update
 
