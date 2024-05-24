@@ -6,6 +6,7 @@ The developed code serves as a tool for generating random number combinations wi
 coming in website to universal useing
 
 1.6 there are changes
+1.7 add dead number from website in ever market wla 110
 1.8 coming soon feature adding totally bet
 
 
