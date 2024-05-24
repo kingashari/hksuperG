@@ -37,6 +37,8 @@ The web version will come, maybe it won't be long in 2-3 weeks, this will probab
 
 There is no continuation of the web version yet, because there are still many additional features that might be useful, but don't worry, this will be made as soon as possible
 
+if you want to help me develop the website you only contact me in profile :)
+
 # NOTE!!
 
 In the version 1.6 update, we decided to remove a feature that I found to be unnecessary. After careful consideration and thorough research, I have decided to eliminate the dead number feature. This will be replaced with a feature that allows users to eliminate numbers that have already been drawn or that they believe will not be drawn.
