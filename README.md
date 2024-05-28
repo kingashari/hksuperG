@@ -10,7 +10,9 @@ coming in website to universal useing
 
 1.6 there are changes
 
-1.9 coming soon feature adding totally bet
+2.0 coming soon feature adding totally bet
+
+HONGKONG | SDYNEY | SINGAPORE ready to auto-play numbers in the 2.1 update 
 
 
 # build
