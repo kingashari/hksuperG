@@ -49,3 +49,7 @@ in 1.7 if the dead number has an error or can't be run, you can replace it in th
 'url = 'xxxxxxxxxxxxxxx'
 and contact me, I'll give you a small update
 
+Angka Main (AM1) First Digit XX11
+
+Angka Main (AM2) Second Digit 11XX
+
