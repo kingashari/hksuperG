@@ -10,9 +10,11 @@ coming in website to universal useing
 
 1.6 there are changes
 
-2.1 coming soon feature adding totally bet
+update 2.1 is delayed, the target we scarping changed the html structure and we have to start all over again. fix this word
 
-HONGKONG | SDYNEY | SINGAPORE ready to auto-play numbers in the 2.2 update 
+2.2 coming soon feature adding totally bet
+
+HONGKONG | SDYNEY | SINGAPORE ready to auto-play numbers in the 2.3 update 
 
 
 # build
