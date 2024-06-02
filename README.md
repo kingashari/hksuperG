@@ -4,7 +4,7 @@ The developed code serves as a tool for generating random number combinations wi
 
 # ANNOUNCEMENT!!
 
-dead numbers are ready to use again, bugs have been fixed, download version 2.0.4 on release if this is using the version without dead numbers download RELOAD version 2.0.3
+dead numbers are ready to use again, bugs have been fixed, download version 2.0.4 on release if this is using the version without dead numbers download **RELOAD** version 2.0.3
 
 # update version
 about updates can be seen at releases
