@@ -28,5 +28,9 @@ termux              `git clone https://github.com/kingashari/hksuperG`
 
 git clone/hksuperG/2.0.3.py
 
+**WINDOWS**
+
+download in release new version and run double click *enter cmd* and use 
+
 
 
