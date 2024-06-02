@@ -1,5 +1,7 @@
 **LINUX**
 
-install pyhton 3 'sudo apt install python'
+install pyhton 3 `sudo apt install python`
 
-install git clone 'sudo apt install git'
+install git clone `sudo apt install git`
+
+username@bot: `git clone 
