@@ -30,7 +30,7 @@ git clone/hksuperG/2.0.3.py
 
 **WINDOWS**
 
-download in release new version and run double click *enter cmd* and use 
+for windows download the github release and run it with a double click as usual, don't forget to install python with `pip install python`.  
 
 
 
