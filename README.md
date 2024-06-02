@@ -2,6 +2,10 @@
 
 The developed code serves as a tool for generating random number combinations with specific constraints, commonly used in betting games or lotteries. This code allows users to input the number of combinations they want to generate, the bet values for four-digit (4D), three-digit (3D), and two-digit (2D) combinations, as well as a list of four-digit combinations that should be excluded from the results. The code comprises several key components, including the initialization of global variables for digit names and number limits, the `generate_kombinasi` function to generate valid random number combinations, and the `main` function to handle user input and display the results. During the process, the code ensures that the generated number combinations do not include any of the forbidden combinations and constructs the result strings in the desired format for use in betting games or simulations. Consequently, this code not only assists in generating random number combinations but also provides additional control to avoid specific numbers, making it a flexible and useful tool in the context of number-based betting.
 
+# ANNOUNCEMENT!!
+
+dead numbers are ready to use again, bugs have been fixed, download version 2.0.4 on release if this is using the version without dead numbers download RELOAD version 2.0.3
+
 # update version
 about updates can be seen at releases
 
@@ -9,8 +13,6 @@ about updates can be seen at releases
 coming in website to universal useing
 
 1.6 there are changes
-
-update 2.1 is delayed, the target we scarping changed the html structure and we have to start all over again. fix this word
 
 2.2 coming soon feature adding totally bet
 
