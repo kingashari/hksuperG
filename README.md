@@ -6,6 +6,8 @@ The developed code serves as a tool for generating random number combinations wi
 
 GIT CLONE READY!!
 
+`https://github.com/kingashari/hksuperG`
+
 dead numbers are ready to use again, bugs have been fixed, download version 2.0.3 on release if this is using the version without dead numbers download **RELOAD** version 2.0.2. the git clone folder has been updated, if you have previously saved an update with `git pull` on the repository
 
 **RELOAD** has been release
