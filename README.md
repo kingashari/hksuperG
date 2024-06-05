@@ -59,3 +59,5 @@ Angka Main (AM1) First Digit XX11
 
 Angka Main (AM2) Second Digit 11XX
 
+Angka Ikut (AI) 
+
