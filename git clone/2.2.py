@@ -95,7 +95,7 @@ print()
 
 def scrape_nomer_tidak_keluar():
     # URL dari halaman yang ingin di-scrape
-    url = 'https://www.suaraaksara4d.com/wap'
+    url = 'https://www.suaraaksara4d.info/wap'
 
     # Mendapatkan konten HTML dari URL
     response = requests.get(url)
