@@ -65,6 +65,31 @@ Angka Main (AM2) Second Digit 11XX
 
 Angka Ikut (AI) 
 
-# GUI EDITION NOW AVAILABLE
-version 2.2.1 GUI Edition, check ini folder
+# GUI EDITION NOW AVAILABLE!!
+Here is a description of the changes to the GUI (Graphical User Interface) after the update:
+
+### 1. **Scraping Button**
+- Added the **"Scrape Number Not Out"** button which automatically downloads data from the site and displays the results in the GUI. The scraping results are displayed horizontally to make them neater and easier to see.
+- This button is located after the combination input and before the output results, so that users can easily scrape before calculating the number combination.
+
+### 2. **Scraping Result Display**
+- The scraping results are displayed in the **"Scraping Result:"** label which is updated to show the numbers that did not come out, with a horizontal format to maximize space usage.
+- This content is wrapped in a label that supports a text length that can be set with the `wraplength` attribute to keep the text visible in the set area.
+
+### 3. **Combination Result Display**
+- After pressing the **"Generate Combination"** button, the number combination results will appear in the **"Combination Result:"** label with a horizontal display, where the results are displayed neatly in sequence.
+
+### 4. **Bet Calculation Result Display**
+- This section displays the 4D, 3D, and 2D calculation results in the label **"Bet Result (4D, 3D, 2D):"**.
+- The calculation results are also clearly divided, each part (4D, 3D, and 2D) is separated by certain characters, such as an asterisk (*), for easy reading.
+
+### 5. **Copy Paste Button**
+- **The "Copy Bet Result" button** is placed after the calculation results to make it easier for users to copy the 4D, 3D, and 2D calculation results to the clipboard.
+- After the user presses this button, a notification message will appear to inform that the results have been successfully copied to the clipboard, providing a more interactive experience.
+
+### 6. **Improved User Interaction**
+- Users can now directly copy bet results (4D, 3D, 2D) with one click without having to select the text manually.
+- Additional notifications with `messagebox` provide clear feedback on whether the results were successfully copied or whether the scraping was successful.
+
+This update makes the GUI more intuitive, responsive, and makes it easier for users to quickly manage scraping results and numerical calculations.
 
