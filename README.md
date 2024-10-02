@@ -65,3 +65,6 @@ Angka Main (AM2) Second Digit 11XX
 
 Angka Ikut (AI) 
 
+# GUI EDITION NOW AVAILABLE
+version 2.2.1 GUI Edition, check ini folder
+
