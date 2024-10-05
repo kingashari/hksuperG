@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hksuperG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b3d91;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #1e90ff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #4682b4;
+        }
+        .result {
+            margin-top: 20px;
+            background-color: #1c1c1c;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function copyToClipboard(elementId) {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById(elementId).innerText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            alert('Copied: ' + tempInput.value);
+        }
+
+        function copyAllResults() {
+            var resultsText = document.getElementById("result4d").innerText + "\n" +
+                              document.getElementById("result3d").innerText + "\n" +
+                              document.getElementById("result2d").innerText;
+
+            var tempInput = document.createElement("textarea");
+            tempInput.value = resultsText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+
+            alert('Copied all results:\n' + resultsText);
+        }
+
+        function clearResults() {
+            // Mengosongkan hasil
+            document.getElementById("result4d").innerText = "";
+            document.getElementById("result3d").innerText = "";
+            document.getElementById("result2d").innerText = "";
+            
+            // Mengosongkan hasil kombinasi dan scraping
+            document.querySelector(".result h2:nth-of-type(1) + p").innerText = "";
+            document.querySelector(".result h2:nth-of-type(2) + p").innerText = "";
+
+            // Mengosongkan input form
+            document.querySelector("input[name='url']").value = "https://www.belatiaksara4d.com/wapsecure/numberlocation.html";
+            document.querySelector("input[name='jumlah_kombinasi']").value = "";
+            document.querySelector("input[name='ai']").value = "";
+            document.querySelector("input[name='am1']").value = "";
+            document.querySelector("input[name='am2']").value = "";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>hksuperG</h1>
+        <form method="POST">
+            <label>Masukkan URL</label>
+            <input type="text" name="url" value="https://www.belatiaksara4d.com/wapsecure/numberlocation.html" required>
+
+            <label>Jumlah Kombinasi</label>
+            <input type="number" name="jumlah_kombinasi" required>
+
+            <label>Angka Ikut</label>
+            <input type="text" name="ai" placeholder="Opsional, Pisahkan dengan *">
+
+            <label>Angka Main I</label>
+            <input type="text" name="am1" placeholder="Opsional, Pisahkan dengan *">
+
+            <label>Angka Main II</label>
+            <input type="text" name="am2" placeholder="Opsional, Pisahkan dengan *">
+
+            <button type="submit">Generate Kombinasi dan Scrape</button>
+        </form>
+
+        <div class="result">
+            <h2>Hasil Scraping:</h2>
+            <p>{{ scraped_data | join(", ") }}</p>
+
+            <h2>Hasil Kombinasi:</h2>
+            <p>{{ kombinasi | join(", ") }}</p>
+
+            <h2>Hasil Bet 4D:</h2>
+            <p id="result4d">{{ bets['4D'] }}</p>
+
+            <h2>Hasil Bet 3D:</h2>
+            <p id="result3d">{{ bets['3D'] }}</p>
+
+            <h2>Hasil Bet 2D:</h2>
+            <p id="result2d">{{ bets['2D'] }}</p>
+
+            <!-- Tombol untuk menyalin semua hasil sekaligus -->
+            <button onclick="copyAllResults()">Copy All Results</button>
+            <button type="button" onclick="clearResults()">Clear</button>
+        </div>
+    </div>
+</body>
+</html>
