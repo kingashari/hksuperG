@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hksuperG</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>hksuperG</h1>
+        <form method="POST">
+            <label>Masukkan URL</label>
+            <input type="text" name="url" value="https://www.belatiaksara4d.com/wapsecure/numberlocation.html" required>
+
+            <label>Jumlah Kombinasi</label>
+            <input type="number" name="jumlah_kombinasi" required>
+
+            <label>Angka Ikut</label>
+            <input type="text" name="ai" placeholder="Opsional, Pisahkan dengan *">
+
+            <label>Angka Main I</label>
+            <input type="text" name="am1" placeholder="Opsional, Pisahkan dengan *">
+
+            <label>Angka Main II</label>
+            <input type="text" name="am2" placeholder="Opsional, Pisahkan dengan *">
+
+            <button type="submit">Generate Kombinasi dan Scrape</button>
+        </form>
+
+        <div class="result">
+            <h2>Hasil Scraping:</h2>
+            <p>{{ scraped_data | join(", ") }}</p>
+
+            <h2>Hasil Kombinasi:</h2>
+            <p>{{ kombinasi | join(", ") }}</p>
+
+            <h2>Hasil Bet 4D:</h2>
+            <p id="result4d">{{ bets['4D'] }}</p>
+
+            <h2>Hasil Bet 3D:</h2>
+            <p id="result3d">{{ bets['3D'] }}</p>
+
+            <h2>Hasil Bet 2D:</h2>
+            <p id="result2d">{{ bets['2D'] }}</p>
+
+            <button onclick="copyAllResults()">Copy All Results</button>
+            <button type="button" onclick="clearResults()">Clear</button>
+        </div>
+    </div>
+    <script src="static/js/scripts.js"></script>
+</body>
+</html>
